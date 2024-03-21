@@ -9,3 +9,29 @@
 @use 'navigation';
 @use 'page';
 @use 'text';
+
+@use 'dropdown-modifiers';
+@use 'form-control-modifiers';
+
+@import 'react-bootstrap-typeahead/css/Typeahead.css';
+@import 'react-bootstrap-typeahead/css/Typeahead.bs5.css';
+
+// Functions first
+@import 'bootstrap/scss/functions';
+
+// Variable overrides second
+$primary: #900;
+$enable-shadows: true;
+$prefix: 'bs-';
+
+// Required Bootstrap imports
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/helpers/visually-hidden';
+
+// Optional components
+@import 'bootstrap/scss/forms/form-control';
+@import 'bootstrap/scss/dropdown';
+@import 'bootstrap/scss/spinners';

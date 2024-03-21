@@ -1,0 +1,9 @@
+@use 'lib/color-variables';
+
+.form-control {
+	color: color-variables.$default-text-color !important;
+}
+
+.form-control:focus {
+	border-color: color-variables.$autocomplete-option-background-color !important;
+}

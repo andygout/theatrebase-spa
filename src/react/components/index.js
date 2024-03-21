@@ -40,6 +40,7 @@ import ProducerProductionsList from './ProducerProductionsList';
 import ProductionLinkWithContext from './ProductionLinkWithContext';
 import ProductionsList from './ProductionsList';
 import ProductionTeamCreditsList from './ProductionTeamCreditsList';
+import SearchBar from './SearchBar';
 import VenueLinkWithContext from './VenueLinkWithContext';
 import WritingCredits from './WritingCredits';
 import WritingEntities from './WritingEntities';
@@ -87,6 +88,7 @@ export {
 	ProductionLinkWithContext,
 	ProductionsList,
 	ProductionTeamCreditsList,
+	SearchBar,
 	VenueLinkWithContext,
 	WritingCredits,
 	WritingEntities

@@ -1,0 +1,12 @@
+@use 'lib/color-variables';
+
+.dropdown-item {
+	line-height: var(--bs-body-line-height);
+	color: color-variables.$default-text-color !important;
+	cursor: pointer !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: color-variables.$autocomplete-option-color !important;
+	background-color: color-variables.$autocomplete-option-background-color !important;
+}
